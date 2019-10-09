@@ -1,0 +1,5 @@
+excluded:
+  - .build
+disabled_rules:
+  - closure_parameter_position
+  - line_length

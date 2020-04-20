@@ -5,7 +5,7 @@ import Commander
 public class CLI {
     // MARK: - Public
 
-    // returns a Cmmander-powered entry point to the Hypershard's CLI
+    // returns a Commander-powered entry point to the Hypershard's CLI
     public class func entryPoint() -> CommandType {
         return command(
             Argument<String>("testTargetName", description: "name of the Xcode target for XCUITests"),
